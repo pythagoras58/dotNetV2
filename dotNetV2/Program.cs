@@ -9,8 +9,6 @@ namespace dotNetV2
             public decimal price;
             public string author;
             public string description;
-
-
         }
 
         static void Main(string[] args)
@@ -31,6 +29,25 @@ namespace dotNetV2
             book.price = 12.12m;
             book.author = "Pythagoras";
             book.description = "Book for Sanjay";
+
+
+            string place = "Accra";
+
+            switch (place)
+            {
+                case "Accra":
+                    Console.WriteLine("Accra Found");
+                    break;
+                case "Kumasi":
+                    Console.WriteLine("Kumasi Found");
+                    break;
+                default:
+                    Console.WriteLine("Koforidua Found");
+                    break;
+
+            }
+
+
 
 
         }
